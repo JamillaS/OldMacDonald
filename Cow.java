@@ -9,7 +9,7 @@ class Cow implements Animal
      }
      public Cow()
      {
-     	myType = "spotted";
+     	myType = "cow";
      	mySound = "moo";
      }
      public String getSound()
