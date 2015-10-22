@@ -5,6 +5,7 @@ class Farm
    {
    	animals[0] = new Cow("cow", "moo");
    	animals[1] = new Chick("chick", "cheep", "cluck");
+   	//animals[1].setSound("cheep", "cluck");
    	animals[2] = new Pig("pig", "oink");
    }
    public void animalSounds()
