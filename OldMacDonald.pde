@@ -7,7 +7,7 @@ void setup()
 
 	Chick ch = new Chick("chick", "cheep", "cluck");
 	ch.setSound("cluck","cheep" );
-	System.out.println(ch.getType() + " goes " + ch.getSound());
+	System.out.println(ch.getType() + " goesm " + ch.getSound());
 
 	Pig p = new Pig("pig", "oink");
 	System.out.println(p.getType() + " goes " + p.getSound());

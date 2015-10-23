@@ -10,12 +10,10 @@ class Chick implements Animal
      }
      public Chick()
      {
-     	//myType = "chick";
+     	myType = "chick";
      	
-     	//mySound = "cheep";
-     	//mySound = "cluck";
-     	
-     	
+     	mySound = "cheep";
+     	mySound = "cluck";
      }
      
      public void setSound(String cheep, String cluck)
