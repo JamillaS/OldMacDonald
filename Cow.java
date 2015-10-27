@@ -6,6 +6,7 @@ class Cow implements Animal
      {
      	myType = type;
      	mySound = sound;
+     	myName = name;
      }
      public Cow()
      {

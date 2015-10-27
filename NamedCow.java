@@ -8,10 +8,11 @@ class NamedCow extends Cow
 	}
 	public NamedCow()
 	{
-		name = "Elsie";
+		myName = "Elsie";
 	}
+
 	public String getName()
 	{
-		return name;
+		return myName;
 	}
 }

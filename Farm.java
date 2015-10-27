@@ -18,6 +18,6 @@ class Farm
    		((Chick)(animals[1])).setSound("cheep","cluck");
    		System.out.println(animals[i].getType() + " goes " + animals[i].getSound());
    	}
-   		System.out.println( "The cow is known as " + (((NamedCow)(animals[0])).getName()));
+   		System.out.println( "The cow is known as " + ((NamedCow)animals[0]).getName());
    }
 }
